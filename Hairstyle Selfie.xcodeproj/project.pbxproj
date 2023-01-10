@@ -7,23 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F888A86935842522F2C486E /* Pods_Hairstyle_Selfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7974E93587D4C064C348EE2A /* Pods_Hairstyle_Selfie.framework */; };
+		444842F3296ADA04005190F7 /* SaloonServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444842F2296ADA04005190F7 /* SaloonServicesViewController.swift */; };
+		444842F5296AF708005190F7 /* saloonServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444842F4296AF708005190F7 /* saloonServicesTableViewCell.swift */; };
+		4469DD5D2955AC8600BAA25B /* appointmensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469DD5B2955AC8500BAA25B /* appointmensTableViewCell.swift */; };
+		4469DD5E2955AC8600BAA25B /* appointmensTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4469DD5C2955AC8500BAA25B /* appointmensTableViewCell.xib */; };
+		4469DD602955D9EF00BAA25B /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4469DD5F2955D9EF00BAA25B /* FloatingTextField.swift */; };
+		446C71CD2969A1270016A344 /* SaloonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C71CC2969A1270016A344 /* SaloonViewModel.swift */; };
+		446C71CF2969A1610016A344 /* SaloonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C71CE2969A1610016A344 /* SaloonModels.swift */; };
+		44753CA42965827A00509440 /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44753CA32965827A00509440 /* ContactUSViewController.swift */; };
+		44753CA729659C4200509440 /* NearBySaloonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44753CA629659C4200509440 /* NearBySaloonsViewController.swift */; };
+		44753CA929659C8A00509440 /* nearBySaloonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44753CA829659C8A00509440 /* nearBySaloonsTableViewCell.swift */; };
+		4475E777295468EE00E36306 /* galleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475E776295468EE00E36306 /* galleryCollectionViewCell.swift */; };
+		4481854B29560A58000D4C75 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481854A29560A58000D4C75 /* MapViewController.swift */; };
+		4494B7B529646CE20078971E /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494B7B329646CE20078971E /* AddressTableViewCell.swift */; };
+		4494B7B629646CE20078971E /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4494B7B429646CE20078971E /* AddressTableViewCell.xib */; };
+		4494B7B8296474390078971E /* ManageAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494B7B7296474390078971E /* ManageAddressViewController.swift */; };
+		4494B7BA29649CB90078971E /* AddAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494B7B929649CB90078971E /* AddAdressViewController.swift */; };
+		44A93A5E295AFD34003119D5 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A93A5D295AFD34003119D5 /* MyProfileViewController.swift */; };
+		44A93A60295B20E8003119D5 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A93A5F295B20E8003119D5 /* changePasswordViewController.swift */; };
 		44B2710F2951BDDD00379027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2710E2951BDDD00379027 /* AppDelegate.swift */; };
 		44B271112951BDDD00379027 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B271102951BDDD00379027 /* SceneDelegate.swift */; };
-		44B271132951BDDD00379027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B271122951BDDD00379027 /* ViewController.swift */; };
 		44B271162951BDDD00379027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B271142951BDDD00379027 /* Main.storyboard */; };
 		44B271182951BDE100379027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B271172951BDE100379027 /* Assets.xcassets */; };
 		44B2711B2951BDE100379027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B271192951BDE100379027 /* LaunchScreen.storyboard */; };
+		44B271292951D29500379027 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B271282951D29500379027 /* LaunchViewController.swift */; };
+		44B2712B2951D2F000379027 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2712A2951D2F000379027 /* RegisterViewController.swift */; };
+		44B2712D2951D36800379027 /* CommonAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2712C2951D36800379027 /* CommonAlertViewController.swift */; };
+		44B2712F2951E3C600379027 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B2712E2951E3C600379027 /* LoginViewController.swift */; };
+		44B271312951EF5900379027 /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B271302951EF5900379027 /* MainTabbarViewController.swift */; };
+		44F597D329530C0200EACEE6 /* CustomizedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597D229530C0200EACEE6 /* CustomizedTabBar.swift */; };
+		44F597D529532B5200EACEE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597D429532B5200EACEE6 /* HomeViewController.swift */; };
+		44F597D729532B6B00EACEE6 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597D629532B6B00EACEE6 /* GalleryViewController.swift */; };
+		44F597D929532B8D00EACEE6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597D829532B8D00EACEE6 /* CameraViewController.swift */; };
+		44F597DB29532BD100EACEE6 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597DA29532BD100EACEE6 /* AppointmentsViewController.swift */; };
+		44F597DD29532BED00EACEE6 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597DC29532BED00EACEE6 /* AccountViewController.swift */; };
+		44F597DF2953374300EACEE6 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597DE2953374300EACEE6 /* Extentions.swift */; };
+		44F597E229533C4400EACEE6 /* homeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F597E129533C4400EACEE6 /* homeCollectionViewCell.swift */; };
+		C114FC13296C87D3002352A8 /* SaloonDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114FC12296C87D3002352A8 /* SaloonDataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C88F35E74ADA0D214A0A66A /* Pods-Hairstyle Selfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hairstyle Selfie.release.xcconfig"; path = "Target Support Files/Pods-Hairstyle Selfie/Pods-Hairstyle Selfie.release.xcconfig"; sourceTree = "<group>"; };
+		444842F2296ADA04005190F7 /* SaloonServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonServicesViewController.swift; sourceTree = "<group>"; };
+		444842F4296AF708005190F7 /* saloonServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saloonServicesTableViewCell.swift; sourceTree = "<group>"; };
+		4469DD5B2955AC8500BAA25B /* appointmensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appointmensTableViewCell.swift; sourceTree = "<group>"; };
+		4469DD5C2955AC8500BAA25B /* appointmensTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = appointmensTableViewCell.xib; sourceTree = "<group>"; };
+		4469DD5F2955D9EF00BAA25B /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
+		446C71CC2969A1270016A344 /* SaloonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonViewModel.swift; sourceTree = "<group>"; };
+		446C71CE2969A1610016A344 /* SaloonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonModels.swift; sourceTree = "<group>"; };
+		44753CA32965827A00509440 /* ContactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
+		44753CA629659C4200509440 /* NearBySaloonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearBySaloonsViewController.swift; sourceTree = "<group>"; };
+		44753CA829659C8A00509440 /* nearBySaloonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearBySaloonsTableViewCell.swift; sourceTree = "<group>"; };
+		4475E776295468EE00E36306 /* galleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4481854A29560A58000D4C75 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4494B7B329646CE20078971E /* AddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		4494B7B429646CE20078971E /* AddressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		4494B7B7296474390078971E /* ManageAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageAddressViewController.swift; sourceTree = "<group>"; };
+		4494B7B929649CB90078971E /* AddAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdressViewController.swift; sourceTree = "<group>"; };
+		44A93A5D295AFD34003119D5 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		44A93A5F295B20E8003119D5 /* changePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
 		44B2710B2951BDDD00379027 /* Hairstyle Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hairstyle Selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B2710E2951BDDD00379027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B271102951BDDD00379027 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44B271122951BDDD00379027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44B271152951BDDD00379027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44B271172951BDE100379027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B2711A2951BDE100379027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B2711C2951BDE100379027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B271282951D29500379027 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		44B2712A2951D2F000379027 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		44B2712C2951D36800379027 /* CommonAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonAlertViewController.swift; sourceTree = "<group>"; };
+		44B2712E2951E3C600379027 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44B271302951EF5900379027 /* MainTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		44F597D229530C0200EACEE6 /* CustomizedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTabBar.swift; sourceTree = "<group>"; };
+		44F597D429532B5200EACEE6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44F597D629532B6B00EACEE6 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		44F597D829532B8D00EACEE6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		44F597DA29532BD100EACEE6 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		44F597DC29532BED00EACEE6 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		44F597DE2953374300EACEE6 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		44F597E129533C4400EACEE6 /* homeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCollectionViewCell.swift; sourceTree = "<group>"; };
+		7974E93587D4C064C348EE2A /* Pods_Hairstyle_Selfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hairstyle_Selfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C114FC12296C87D3002352A8 /* SaloonDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonDataViewModel.swift; sourceTree = "<group>"; };
+		F31273AD1D889A4059B3BE0B /* Pods-Hairstyle Selfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hairstyle Selfie.debug.xcconfig"; path = "Target Support Files/Pods-Hairstyle Selfie/Pods-Hairstyle Selfie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +97,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F888A86935842522F2C486E /* Pods_Hairstyle_Selfie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3494DF81DD7E27963A1520C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F31273AD1D889A4059B3BE0B /* Pods-Hairstyle Selfie.debug.xcconfig */,
+				2C88F35E74ADA0D214A0A66A /* Pods-Hairstyle Selfie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		444842F6296B0170005190F7 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				44B271302951EF5900379027 /* MainTabbarViewController.swift */,
+				44F597D429532B5200EACEE6 /* HomeViewController.swift */,
+				44F597D629532B6B00EACEE6 /* GalleryViewController.swift */,
+				44F597D829532B8D00EACEE6 /* CameraViewController.swift */,
+				44F597DA29532BD100EACEE6 /* AppointmentsViewController.swift */,
+				44F597DC29532BED00EACEE6 /* AccountViewController.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		44753CA529659C0800509440 /* Book Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				44753CA629659C4200509440 /* NearBySaloonsViewController.swift */,
+				444842F2296ADA04005190F7 /* SaloonServicesViewController.swift */,
+			);
+			path = "Book Appointment";
+			sourceTree = "<group>";
+		};
+		44A93A5C295AFCFE003119D5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				44A93A5D295AFD34003119D5 /* MyProfileViewController.swift */,
+				44A93A5F295B20E8003119D5 /* changePasswordViewController.swift */,
+				4494B7B7296474390078971E /* ManageAddressViewController.swift */,
+				4494B7B929649CB90078971E /* AddAdressViewController.swift */,
+				44753CA32965827A00509440 /* ContactUSViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		44B271022951BDDC00379027 = {
 			isa = PBXGroup;
 			children = (
 				44B2710D2951BDDD00379027 /* Hairstyle Selfie */,
 				44B2710C2951BDDD00379027 /* Products */,
+				3494DF81DD7E27963A1520C7 /* Pods */,
+				8E8CF7342EBE87A44A130CAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +170,90 @@
 			children = (
 				44B2710E2951BDDD00379027 /* AppDelegate.swift */,
 				44B271102951BDDD00379027 /* SceneDelegate.swift */,
-				44B271122951BDDD00379027 /* ViewController.swift */,
-				44B271142951BDDD00379027 /* Main.storyboard */,
+				44B271252951D1A600379027 /* Model */,
+				44B271232951D16B00379027 /* Views */,
+				44B271272951D1B900379027 /* View Model */,
+				44B271222951D10800379027 /* Controllers */,
+				44F597D129530BC500EACEE6 /* Swift Files */,
+				44F597E029533BF600EACEE6 /* Cell Files */,
 				44B271172951BDE100379027 /* Assets.xcassets */,
-				44B271192951BDE100379027 /* LaunchScreen.storyboard */,
 				44B2711C2951BDE100379027 /* Info.plist */,
 			);
 			path = "Hairstyle Selfie";
+			sourceTree = "<group>";
+		};
+		44B271222951D10800379027 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44B271282951D29500379027 /* LaunchViewController.swift */,
+				44B2712A2951D2F000379027 /* RegisterViewController.swift */,
+				44B2712E2951E3C600379027 /* LoginViewController.swift */,
+				44B2712C2951D36800379027 /* CommonAlertViewController.swift */,
+				4481854A29560A58000D4C75 /* MapViewController.swift */,
+				444842F6296B0170005190F7 /* DashBoard */,
+				44753CA529659C0800509440 /* Book Appointment */,
+				44A93A5C295AFCFE003119D5 /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44B271232951D16B00379027 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44B271142951BDDD00379027 /* Main.storyboard */,
+				44B271192951BDE100379027 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44B271252951D1A600379027 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				446C71CE2969A1610016A344 /* SaloonModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B271272951D1B900379027 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				446C71CC2969A1270016A344 /* SaloonViewModel.swift */,
+				C114FC12296C87D3002352A8 /* SaloonDataViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		44F597D129530BC500EACEE6 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				44F597D229530C0200EACEE6 /* CustomizedTabBar.swift */,
+				4469DD5F2955D9EF00BAA25B /* FloatingTextField.swift */,
+				44F597DE2953374300EACEE6 /* Extentions.swift */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		44F597E029533BF600EACEE6 /* Cell Files */ = {
+			isa = PBXGroup;
+			children = (
+				44F597E129533C4400EACEE6 /* homeCollectionViewCell.swift */,
+				4475E776295468EE00E36306 /* galleryCollectionViewCell.swift */,
+				4494B7B329646CE20078971E /* AddressTableViewCell.swift */,
+				4494B7B429646CE20078971E /* AddressTableViewCell.xib */,
+				4469DD5B2955AC8500BAA25B /* appointmensTableViewCell.swift */,
+				4469DD5C2955AC8500BAA25B /* appointmensTableViewCell.xib */,
+				44753CA829659C8A00509440 /* nearBySaloonsTableViewCell.swift */,
+				444842F4296AF708005190F7 /* saloonServicesTableViewCell.swift */,
+			);
+			path = "Cell Files";
+			sourceTree = "<group>";
+		};
+		8E8CF7342EBE87A44A130CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7974E93587D4C064C348EE2A /* Pods_Hairstyle_Selfie.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B2711F2951BDE100379027 /* Build configuration list for PBXNativeTarget "Hairstyle Selfie" */;
 			buildPhases = (
+				7AC537026CA37A011F9C810E /* [CP] Check Pods Manifest.lock */,
 				44B271072951BDDD00379027 /* Sources */,
 				44B271082951BDDD00379027 /* Frameworks */,
 				44B271092951BDDD00379027 /* Resources */,
+				3189AE186C93B7BFA5ECBCC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,21 +317,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				44B2711B2951BDE100379027 /* LaunchScreen.storyboard in Resources */,
+				4494B7B629646CE20078971E /* AddressTableViewCell.xib in Resources */,
 				44B271182951BDE100379027 /* Assets.xcassets in Resources */,
+				4469DD5E2955AC8600BAA25B /* appointmensTableViewCell.xib in Resources */,
 				44B271162951BDDD00379027 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3189AE186C93B7BFA5ECBCC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hairstyle Selfie/Pods-Hairstyle Selfie-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hairstyle Selfie/Pods-Hairstyle Selfie-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hairstyle Selfie/Pods-Hairstyle Selfie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC537026CA37A011F9C810E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hairstyle Selfie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44B271072951BDDD00379027 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B271132951BDDD00379027 /* ViewController.swift in Sources */,
+				44F597D929532B8D00EACEE6 /* CameraViewController.swift in Sources */,
+				4475E777295468EE00E36306 /* galleryCollectionViewCell.swift in Sources */,
+				44B2712F2951E3C600379027 /* LoginViewController.swift in Sources */,
+				44F597DD29532BED00EACEE6 /* AccountViewController.swift in Sources */,
+				44F597E229533C4400EACEE6 /* homeCollectionViewCell.swift in Sources */,
+				444842F5296AF708005190F7 /* saloonServicesTableViewCell.swift in Sources */,
+				C114FC13296C87D3002352A8 /* SaloonDataViewModel.swift in Sources */,
 				44B2710F2951BDDD00379027 /* AppDelegate.swift in Sources */,
+				44B2712D2951D36800379027 /* CommonAlertViewController.swift in Sources */,
+				4481854B29560A58000D4C75 /* MapViewController.swift in Sources */,
+				446C71CF2969A1610016A344 /* SaloonModels.swift in Sources */,
+				44F597DB29532BD100EACEE6 /* AppointmentsViewController.swift in Sources */,
+				44F597DF2953374300EACEE6 /* Extentions.swift in Sources */,
+				4494B7BA29649CB90078971E /* AddAdressViewController.swift in Sources */,
+				44A93A5E295AFD34003119D5 /* MyProfileViewController.swift in Sources */,
+				44B271312951EF5900379027 /* MainTabbarViewController.swift in Sources */,
+				44A93A60295B20E8003119D5 /* changePasswordViewController.swift in Sources */,
+				44F597D329530C0200EACEE6 /* CustomizedTabBar.swift in Sources */,
+				444842F3296ADA04005190F7 /* SaloonServicesViewController.swift in Sources */,
+				44753CA929659C8A00509440 /* nearBySaloonsTableViewCell.swift in Sources */,
+				44F597D529532B5200EACEE6 /* HomeViewController.swift in Sources */,
 				44B271112951BDDD00379027 /* SceneDelegate.swift in Sources */,
+				4494B7B529646CE20078971E /* AddressTableViewCell.swift in Sources */,
+				4469DD602955D9EF00BAA25B /* FloatingTextField.swift in Sources */,
+				44F597D729532B6B00EACEE6 /* GalleryViewController.swift in Sources */,
+				44753CA42965827A00509440 /* ContactUSViewController.swift in Sources */,
+				44B271292951D29500379027 /* LaunchViewController.swift in Sources */,
+				44B2712B2951D2F000379027 /* RegisterViewController.swift in Sources */,
+				446C71CD2969A1270016A344 /* SaloonViewModel.swift in Sources */,
+				4494B7B8296474390078971E /* ManageAddressViewController.swift in Sources */,
+				4469DD5D2955AC8600BAA25B /* appointmensTableViewCell.swift in Sources */,
+				44753CA729659C4200509440 /* NearBySaloonsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +546,7 @@
 		};
 		44B271202951BDE100379027 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31273AD1D889A4059B3BE0B /* Pods-Hairstyle Selfie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +555,16 @@
 				DEVELOPMENT_TEAM = AAKDC255YM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Hairstyle Selfie/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hairstyle Selfie";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow Hair Style Selfie to take pictures of Hair Styles.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +580,7 @@
 		};
 		44B271212951BDE100379027 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C88F35E74ADA0D214A0A66A /* Pods-Hairstyle Selfie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +589,16 @@
 				DEVELOPMENT_TEAM = AAKDC255YM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Hairstyle Selfie/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hairstyle Selfie";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow Hair Style Selfie to take pictures of Hair Styles.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

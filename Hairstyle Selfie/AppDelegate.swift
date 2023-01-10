@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import GoogleMaps
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyDOFIGDZDm87A0C9b3JZn2wPIqEVCyEbTM")
         return true
+        
     }
 
     // MARK: UISceneSession Lifecycle
